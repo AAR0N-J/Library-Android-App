@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_a_hold"
+        android:textSize="40sp"/>
+
+    <Spinner
+        android:id="@+id/player_spinner"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/BookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Book Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/usernameHold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Username"
+        android:minHeight="48dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/passwordHold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:minHeight="48dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/submit" />
+
+</LinearLayout>

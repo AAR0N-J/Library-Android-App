@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Otter Library System</string>
+    <string name="enter_an_username">Enter an Username</string>
+    <string name="enter_an_password">Enter an Password</string>
+    <string name="submit">Submit</string>
+    <string name="place_a_hold">Place a Hold</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="manage_system">Manage System</string>
+    <string name="login">Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="add_a_book">Add a Book?</string>
+    <string name="add_a_genre">Add a genre</string>
+    <string name="enter_an_author">Enter an author</string>
+    <string name="enter_a_book_title">Enter a book title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="there_is_no_book_currently_available_in_this_genre">There is no book currently available in this genre.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/addBookAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_a_book_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/addAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_an_author"
+        android:minHeight="48dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/addGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_a_genre"
+        android:minHeight="48dp"
+        android:inputType="text"
+        />
+
+</LinearLayout>
